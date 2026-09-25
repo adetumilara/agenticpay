@@ -28,7 +28,7 @@
     }
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "generate:prisma-types": "node scripts/generate-prisma-types.mjs",
     "check:duplicates": "node scripts/check-type-duplication.mjs",
     "check:breaking": "node scripts/detect-breaking-changes.mjs",
